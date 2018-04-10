@@ -64,7 +64,6 @@ public class ListMahasiswaActivity extends AppCompatActivity {
         protected void onPreExecute() {
             mAdapter = (ArrayAdapter<String>) mListView.getAdapter();
 
-            //for progress dialog
             mProgressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
             mProgressDialog.setTitle("Loading Data");
             mProgressDialog.setMessage("Please wait....");
